@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "**/.tests": true
+  },
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "editor.wordBasedSuggestions": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.analysis.completeFunctionParens": false,
+  "terminal.integrated.suggest.enabled": false,
+  "chat.disableAIFeatures": true,
+  "chat.agent.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.editor.empty.hint": "hidden",
+  "github.copilot.enable": {
+    "*": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": false
+}

@@ -1,0 +1,148 @@
+{
+  "title": "Lab 3 - Sums and Factors",
+  "cases": [
+    {
+      "type": "header",
+      "name": "Header is filled in"
+    },
+    {
+      "type": "output",
+      "name": "Sum of 3 to 7, factor of 24",
+      "stdin": [
+        "3",
+        "7",
+        "24"
+      ],
+      "expect": [
+        "Input the first number of your series: Input the second number of your series: Sum: 25",
+        "Input a number to find the largest factor: Largest Factor: 12"
+      ]
+    },
+    {
+      "type": "output",
+      "name": "Invalid range 10 to 4, prime 13",
+      "stdin": [
+        "10",
+        "4",
+        "13"
+      ],
+      "expect": [
+        "Input the first number of your series: Input the second number of your series: Invalid",
+        "Input a number to find the largest factor: Prime"
+      ]
+    },
+    {
+      "type": "output",
+      "name": "Sum of -2 to 3, factor of 49",
+      "stdin": [
+        "-2",
+        "3",
+        "49"
+      ],
+      "expect": [
+        "Input the first number of your series: Input the second number of your series: Sum: 3",
+        "Input a number to find the largest factor: Largest Factor: 7"
+      ]
+    },
+    {
+      "type": "comments",
+      "name": "Code is commented",
+      "min": 4
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Challenge 1 - Sum of Evens",
+      "file": "challenges/sum_even.py",
+      "cases": [
+        {
+          "type": "output",
+          "name": "From 3 to 10",
+          "stdin": [
+            "3",
+            "10"
+          ],
+          "expect": "Start: End: Sum: 28"
+        },
+        {
+          "type": "output",
+          "name": "From -4 to 7",
+          "stdin": [
+            "-4",
+            "7"
+          ],
+          "expect": "Start: End: Sum: 6"
+        },
+        {
+          "type": "output",
+          "name": "Start after end",
+          "stdin": [
+            "10",
+            "3"
+          ],
+          "expect": "Start: End: Invalid"
+        }
+      ]
+    },
+    {
+      "title": "Challenge 2 - Count Digits",
+      "file": "challenges/count_digits.py",
+      "cases": [
+        {
+          "type": "output",
+          "name": "One digit",
+          "stdin": [
+            "7"
+          ],
+          "expect": "Number: Digits: 1"
+        },
+        {
+          "type": "output",
+          "name": "Five digits",
+          "stdin": [
+            "40213"
+          ],
+          "expect": "Number: Digits: 5"
+        },
+        {
+          "type": "output",
+          "name": "Ends in zeros",
+          "stdin": [
+            "1000"
+          ],
+          "expect": "Number: Digits: 4"
+        }
+      ]
+    },
+    {
+      "title": "Challenge 3 - Sum of Digits",
+      "file": "challenges/sum_digits.py",
+      "cases": [
+        {
+          "type": "output",
+          "name": "One digit",
+          "stdin": [
+            "9"
+          ],
+          "expect": "Number: Sum of digits: 9"
+        },
+        {
+          "type": "output",
+          "name": "Five digits",
+          "stdin": [
+            "40213"
+          ],
+          "expect": "Number: Sum of digits: 10"
+        },
+        {
+          "type": "output",
+          "name": "Zeros in the middle",
+          "stdin": [
+            "5005"
+          ],
+          "expect": "Number: Sum of digits: 10"
+        }
+      ]
+    }
+  ]
+}
