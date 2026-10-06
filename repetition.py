@@ -12,28 +12,45 @@
 count = 1
 
 # the indented code repeats as long as count is less than 11
+# the entire loop runs top to bottom - the condition is only checked at the top
 while count < 11:
     print(str(count))
     count = count + 1
+    
 else:
     print("All Done")
 
 # best use of a while loop: repetition with an unknown number of repeats
+# keep repeating while the condition is true
 answer = int(input("What is 1 + 1? "))
+# condition is: wrong answer
 while answer != 2:
     print("Wrong!")
     answer = int(input("What is 1 + 1? "))
+
+    if answer == 100:
+        print("Whoa that's way off")
+        break
 else:
     print("Correct!")
 
 
-# --- for loops ---------------------------------------------------------------
+# # --- for loops ---------------------------------------------------------------
+
+# for loops are good when there's a pattern, or a known # of repetitions
+
 # count up
-for count in range(2, 30, 2):
+for count in range(2, 32, 2):
+
+    # 10 doesn't get printed, because the loop jumps back to the top
+    if count == 10:
+        continue
+
     print(count)
-    if count == 22:
-        print("Yay!")
-        break
+
+    # if count == 10:
+    #     break
+    
 else:
     print("Loop Completed")
 

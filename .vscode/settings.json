@@ -17,7 +17,7 @@
   "python.analysis.autoImportCompletions": false,
   "python.analysis.completeFunctionParens": false,
   "terminal.integrated.suggest.enabled": false,
-  "chat.disableAIFeatures": true,
+  "chat.disableAIFeatures": false,
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "workbench.editor.empty.hint": "hidden",

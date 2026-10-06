@@ -86,7 +86,7 @@ So when would `else` NOT run?
 
 ## Special cases
 
-- `break` leaves a loop early.
+- `break` leaves a loop early.  Use it rarely (such as your program may crash).
 - `continue` jumps back to the start of the loop early. Use it rarely.
 - `pass` does nothing. Use it only temporarily, as a placeholder.
 - `while True` loops run forever unless something breaks out. Avoid relying on
